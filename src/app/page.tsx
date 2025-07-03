@@ -181,6 +181,8 @@ function MobileBackgroundCarousel() {
           <img
             src="./S1-R-papita.JPG"
             alt="Slide 1"
+            loading='lazy'
+            decoding='async'
             className="object-cover w-full h-full"
           />
         </SwiperSlide>
@@ -188,6 +190,8 @@ function MobileBackgroundCarousel() {
           <img
             src="./S1-R-papita2.JPG"
             alt="Slide 2"
+            loading='lazy'
+            decoding='async'
             className="object-cover w-full h-full"
           />
         </SwiperSlide>
@@ -265,10 +269,10 @@ export default function Home() {
           <FadeInOnScroll direction="left">
             <div className="flex gap-4 justify-center mt-20  px-6">
               <div className='flex md:hidden lg:flex'>
-                <img src="./S2-L12.jpg" alt="motivacion" width={276} height={406} className="object-cover mb-16" />
+                <img src="./S2-L12.jpg" alt="motivacion" width={276} height={406} className="object-cover mb-16" loading='lazy' decoding='async' />
               </div>
               <div className='flex'>
-                <img src="./S2-L22.jpg" alt="motivacion" width={276} height={406} className="object-cover mt-16" />
+                <img src="./S2-L22.jpg" alt="motivacion" width={276} height={406} className="object-cover mt-16" loading='lazy' decoding='async' />
               </div>
             </div>
           </FadeInOnScroll>
@@ -342,6 +346,8 @@ export default function Home() {
             <img
               src="./hipertrofia2.jpg"
               alt="Hipertrofia"
+              loading='lazy'
+              decoding='async' 
               className="object-cover h-full w-full absolute top-0 left-0 md:transition-opacity md:duration-500 ease-in-out group-hover:opacity-0"
             />
             <div className="flex absolute top-0 left-0 h-full w-full items-center justify-center px-4 text-center text-black opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out bg-gray-300">
@@ -356,6 +362,8 @@ export default function Home() {
             <img
               src="./modelo2.jpg"
               alt="Modelo"
+              loading='lazy'
+              decoding='async' 
               className="object-cover h-[400px] w-full absolute top-0 left-0 transition-opacity duration-500 ease-in-out group-hover:opacity-0"
             />
             <div className="absolute top-0 left-0 h-full w-full flex items-center justify-center px-4 text-center text-black opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out bg-gray-300 ">
@@ -370,6 +378,8 @@ export default function Home() {
             <img
               src="./flaco2.jpg"
               alt="Flaco"
+              loading='lazy'
+              decoding='async' 
               className="object-cover h-[400px] w-full absolute top-0 left-0 transition-opacity duration-500 ease-in-out group-hover:opacity-0"
             />
             <div className="absolute top-0 left-0 h-full w-full flex items-center justify-center px-4 text-center text-black opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out bg-gray-300 ">
@@ -389,6 +399,8 @@ export default function Home() {
             <img
               src="./hipertrofia2.jpg"
               alt="Hipertrofia"
+              loading='lazy'
+              decoding='async' 
               className="object-cover h-full w-full"
             />
             <p className="text-2xl font-bold text-black pt-5">HIPERTROFIA</p>
@@ -401,6 +413,8 @@ export default function Home() {
             <img
               src="./modelo2.jpg"
               alt="Modelo"
+              loading='lazy'
+              decoding='async' 
               className="object-cover h-full w-full"
             />
             <p className="text-2xl font-bold text-black pt-5">MODELO FITNESS</p>
@@ -413,6 +427,8 @@ export default function Home() {
             <img
               src="./flaco2.jpg"
               alt="Flaco"
+              loading='lazy'
+              decoding='async' 
               className="object-cover h-full w-full"
             />
             <p className="text-2xl font-bold text-black pt-5">LEAN</p>
@@ -437,21 +453,21 @@ export default function Home() {
           </div>
           <div className="sm:w-1/3 flex flex-col">
             <div className='flex mx-auto justify-start gap-x-5 font-ScandiaRegular'>
-              <img width={30} height={28} src='./envelope-at-fill.svg' alt="" />
+              <img width={30} height={28} src='./envelope-at-fill.svg' alt="" loading='lazy' decoding='async'/>
               <div>team@papita.com</div>
             </div>
             <div className='flex text-center justify-center gap-x-5 mt-6 font-ScandiaRegular'>
-              <img width={28.5} height={28.5} src='./telephone.svg' alt="" />
+              <img width={28.5} height={28.5} src='./telephone.svg' alt="" loading='lazy' decoding='async'/>
               <div>(+51) 981460833</div>
             </div>
           </div>
           <div className='sm:w-1/3 flex flex-col text-center'>
             <div className='font-ScandiaRegular'>Síguenos y contáctanos en</div>
             <div className='flex gap-x-6 mt-5 mx-auto'>
-              <a href="" target="_blank" rel="noreferrer"><img width={37} height={42} src='./tiktok.svg' alt="" /></a>
-              <a href="" target="_blank" rel="noreferrer"><img width={42} height={42} src='./facebook.svg' alt="" /></a>
-              <a href="" target="_blank" rel="noreferrer"><img width={42} height={42} src='./instagram.svg' alt="" /></a>
-              <a href="" target="_blank" rel="noreferrer"><img width={42} height={42} src='./linkedin.svg' alt="" /></a>
+              <a href="" target="_blank" rel="noreferrer"><img width={37} height={42} src='./tiktok.svg' alt="" loading='lazy' decoding='async'/></a>
+              <a href="" target="_blank" rel="noreferrer"><img width={42} height={42} src='./facebook.svg' alt="" loading='lazy' decoding='async'/></a>
+              <a href="" target="_blank" rel="noreferrer"><img width={42} height={42} src='./instagram.svg' alt="" loading='lazy' decoding='async'/></a>
+              <a href="" target="_blank" rel="noreferrer"><img width={42} height={42} src='./linkedin.svg' alt="" loading='lazy' decoding='async'/></a>
             </div>
           </div>
         </div>
