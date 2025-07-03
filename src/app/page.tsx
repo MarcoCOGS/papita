@@ -89,7 +89,7 @@ function HeroCarousel() {
       </div>
       <SwiperSlide className='w-full bg-black'>
         <img
-          src="./S1-R-papita.JPG"
+          src="./S1-R-papita3.jpg"
           alt="Hero 1"
           loading='lazy'
           decoding='async'
@@ -98,7 +98,7 @@ function HeroCarousel() {
       </SwiperSlide>
       <SwiperSlide className='w-full bg-black'>
         <img
-          src="./S1-R-papita2.JPG"
+          src="./S1-R-papita4.jpg"
           alt="Hero 2"
           loading='lazy'
           decoding='async'
@@ -134,7 +134,7 @@ function AnimatedDetails({ title, children, className }: AnimatedDetailsProps) {
           <div>
             {title}
           </div>
-          <div className='pr-10 font-extrabold text-4xl mt-[-10px]'>
+          <div className='pr-8 font-extrabold text-4xl mt-[-10px]'>
             {isOpen?'-':'+'}
           </div>
         </div>
@@ -179,7 +179,7 @@ function MobileBackgroundCarousel() {
         </div>
         <SwiperSlide className='w-full bg-black'>
           <img
-            src="./S1-R-papita.JPG"
+            src="./S1-R-papita3.jpg"
             alt="Slide 1"
             loading='lazy'
             decoding='async'
@@ -188,7 +188,7 @@ function MobileBackgroundCarousel() {
         </SwiperSlide>
         <SwiperSlide className='w-full bg-black'>
           <img
-            src="./S1-R-papita2.JPG"
+            src="./S1-R-papita4.jpg"
             alt="Slide 2"
             loading='lazy'
             decoding='async'
@@ -269,10 +269,10 @@ export default function Home() {
           <FadeInOnScroll direction="left">
             <div className="flex gap-4 justify-center mt-20  px-6">
               <div className='flex md:hidden lg:flex'>
-                <img src="./S2-L12.JPG" alt="motivacion" width={276} height={406} className="object-cover mb-16" loading='lazy' decoding='async' />
+                <img src="./S2-L122.jpg" alt="motivacion" width={276} height={406} className="object-cover mb-16" loading='lazy' decoding='async' />
               </div>
               <div className='flex'>
-                <img src="./S2-L22.JPG" alt="motivacion" width={276} height={406} className="object-cover mt-16" loading='lazy' decoding='async' />
+                <img src="./S2-L222.jpg" alt="motivacion" width={276} height={406} className="object-cover mt-16" loading='lazy' decoding='async' />
               </div>
             </div>
           </FadeInOnScroll>
@@ -282,7 +282,7 @@ export default function Home() {
               <h2 className="text-3xl md:text-4xl font-black text-[#DA121A] mt-5">EL MOMENTO A LLEGADO</h2>
               <h3 className="text-2xl font-bold mb-6 mt-4">TRABAJA EN TU MEJOR VERSIÓN!</h3>
               <div className="space-y-4 flex flex-col">
-                <AnimatedDetails title="01.  ¿Por qué lo hago?" className='hidden md:flex flex-col'>
+                <AnimatedDetails title="01.  ¿Por qué lo hago?" className='flex flex-col'>
                   <p className="mt-2 text-lg text-black">
                     • Ayudar a personas a aprender a cambiar su estilo de vida empezando por lo más importante que es lo que los va a acompañar hasta el fin de sus días, su cuerpo.
                   </p>
@@ -344,7 +344,7 @@ export default function Home() {
 
           <div className="flex-1 flex flex-col items-center group cursor-pointer relative h-[400px] max-h-[400px] w-full max-w-[400px]">
             <img
-              src="./hipertrofia2.JPG"
+              src="./hipertrofia3.jpg"
               alt="Hipertrofia"
               loading='lazy'
               decoding='async' 
@@ -360,7 +360,7 @@ export default function Home() {
 
           <div className="flex-1 flex flex-col items-center group cursor-pointer relative h-[400px] max-h-[400px] w-full max-w-[400px] ">
             <img
-              src="./modelo2.JPG"
+              src="./modelo3.jpg"
               alt="Modelo"
               loading='lazy'
               decoding='async' 
@@ -376,7 +376,7 @@ export default function Home() {
 
           <div className="flex-1 flex flex-col items-center group cursor-pointer relative h-[400px] max-h-[400px] w-full max-w-[400px] bg-gray-300">
             <img
-              src="./flaco2.JPG"
+              src="./flaco3.jpg"
               alt="Flaco"
               loading='lazy'
               decoding='async' 
@@ -397,7 +397,7 @@ export default function Home() {
         <div className="flex flex-col md:flex-row justify-center items-center md:justify-around gap-6 gap-y-10 mt-20 w-full mb-20">
           <div className="flex-1 flex flex-col items-center group cursor-pointer relative h-[400px] max-h-[400px] w-full max-w-[400px]">
             <img
-              src="./hipertrofia2.JPG"
+              src="./hipertrofia3.jpg"
               alt="Hipertrofia"
               loading='lazy'
               decoding='async' 
@@ -411,7 +411,7 @@ export default function Home() {
 
           <div className="flex-1 flex flex-col items-center group cursor-pointer h-[400px] max-h-[400px] w-full max-w-[400px]">
             <img
-              src="./modelo2.JPG"
+              src="./modelo3.jpg"
               alt="Modelo"
               loading='lazy'
               decoding='async' 
@@ -425,7 +425,7 @@ export default function Home() {
 
           <div className="flex-1 flex flex-col items-center group cursor-pointer relative h-[400px] max-h-[400px] w-full max-w-[400px] bg-gray-300">
             <img
-              src="./flaco2.JPG"
+              src="./flaco3.jpg"
               alt="Flaco"
               loading='lazy'
               decoding='async' 
@@ -464,10 +464,10 @@ export default function Home() {
           <div className='sm:w-1/3 flex flex-col text-center'>
             <div className='font-ScandiaRegular'>Síguenos y contáctanos en</div>
             <div className='flex gap-x-6 mt-5 mx-auto'>
-              <a href="" target="_blank" rel="noreferrer"><img width={37} height={42} src='./tiktok.svg' alt="" loading='lazy' decoding='async'/></a>
-              <a href="" target="_blank" rel="noreferrer"><img width={42} height={42} src='./facebook.svg' alt="" loading='lazy' decoding='async'/></a>
-              <a href="" target="_blank" rel="noreferrer"><img width={42} height={42} src='./instagram.svg' alt="" loading='lazy' decoding='async'/></a>
-              <a href="" target="_blank" rel="noreferrer"><img width={42} height={42} src='./linkedin.svg' alt="" loading='lazy' decoding='async'/></a>
+              <a href="https://www.tiktok.com/@Papitatok" target="_blank" rel="noreferrer"><img width={37} height={42} src='./tiktok.svg' alt="" loading='lazy' decoding='async'/></a>
+              <a href="https://www.facebook.com/MarianoDOTA2" target="_blank" rel="noreferrer"><img width={42} height={42} src='./facebook.svg' alt="" loading='lazy' decoding='async'/></a>
+              <a href="https://www.instagram.com/mariano.caneda" target="_blank" rel="noreferrer"><img width={42} height={42} src='./instagram.svg' alt="" loading='lazy' decoding='async'/></a>
+              <a href="https://kick.com/papita" target="_blank" rel="noreferrer"><img width={42} height={42} src='./kick-logo.svg' alt="" loading='lazy'  decoding='async' className="invert brightness-0" /></a>
             </div>
           </div>
         </div>
