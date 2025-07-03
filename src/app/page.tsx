@@ -440,7 +440,7 @@ export default function Home() {
       </section>
 
       <div className='flex justify-center pb-20 bg-[#EFECE8]'>
-        <a href="https://api.whatsapp.com/send?phone=+51981460833&text=%C2%A1Hola!%20me%20gustar%C3%ADa%20conocer%20m%C3%A1s%20sobre%20los%20planes%20de%20entrenamiento."
+        <a href="https://api.whatsapp.com/send?phone=+51906151954&text=%C2%A1Hola!%20me%20gustar%C3%ADa%20conocer%20m%C3%A1s%20sobre%20los%20planes%20de%20entrenamiento."
           className='flex justify-center cursor-pointer' target="_blank" rel="noreferrer">
           <div className="mt-6 bg-[#DA121A] px-6 py-3 rounded-md font-bold font-teko text-xl hover:bg-[#DA121A]">CONTACTANOS AHORA</div>
         </a>
