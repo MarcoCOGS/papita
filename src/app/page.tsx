@@ -253,7 +253,7 @@ export default function Home() {
         <div className="flex flex-col md:w-3/5 md:py-14 z-10 mt-[5vh]">
           <HeroSection/>
           <div className='flex justify-center mt-[3vh] md:mt-5 '>
-            <a href="https://api.whatsapp.com/send?phone=+51981460833&text=%C2%A1Hola!%20me%20gustar%C3%ADa%20conocer%20m%C3%A1s%20sobre%20los%20planes%20de%20entrenamiento."
+            <a href="https://api.whatsapp.com/send?phone=+51906151954&text=%C2%A1Hola!%20me%20gustar%C3%ADa%20conocer%20m%C3%A1s%20sobre%20los%20planes%20de%20entrenamiento."
               className='flex justify-center cursor-pointer' target="_blank" rel="noreferrer">
               <div className="mt-6 bg-[#DA121A] px-6 py-3 rounded-md font-bold font-teko text-xl hover:bg-[#DA121A]">CONTACTANOS AHORA</div>
             </a>
@@ -454,11 +454,11 @@ export default function Home() {
           <div className="sm:w-1/3 flex flex-col">
             <div className='flex mx-auto justify-start gap-x-5 font-ScandiaRegular'>
               <img width={30} height={28} src='./envelope-at-fill.svg' alt="" loading='lazy' decoding='async'/>
-              <div>team@papita.com</div>
+              <div>teampapitacontact@gmail.com</div>
             </div>
             <div className='flex text-center justify-center gap-x-5 mt-6 font-ScandiaRegular'>
               <img width={28.5} height={28.5} src='./telephone.svg' alt="" loading='lazy' decoding='async'/>
-              <div>(+51) 981460833</div>
+              <div>(+51) 906151954</div>
             </div>
           </div>
           <div className='sm:w-1/3 flex flex-col text-center'>
