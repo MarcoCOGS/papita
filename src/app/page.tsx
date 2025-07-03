@@ -269,10 +269,10 @@ export default function Home() {
           <FadeInOnScroll direction="left">
             <div className="flex gap-4 justify-center mt-20  px-6">
               <div className='flex md:hidden lg:flex'>
-                <img src="./S2-L12.jpg" alt="motivacion" width={276} height={406} className="object-cover mb-16" loading='lazy' decoding='async' />
+                <img src="./S2-L12.JPG" alt="motivacion" width={276} height={406} className="object-cover mb-16" loading='lazy' decoding='async' />
               </div>
               <div className='flex'>
-                <img src="./S2-L22.jpg" alt="motivacion" width={276} height={406} className="object-cover mt-16" loading='lazy' decoding='async' />
+                <img src="./S2-L22.JPG" alt="motivacion" width={276} height={406} className="object-cover mt-16" loading='lazy' decoding='async' />
               </div>
             </div>
           </FadeInOnScroll>
@@ -344,7 +344,7 @@ export default function Home() {
 
           <div className="flex-1 flex flex-col items-center group cursor-pointer relative h-[400px] max-h-[400px] w-full max-w-[400px]">
             <img
-              src="./hipertrofia2.jpg"
+              src="./hipertrofia2.JPG"
               alt="Hipertrofia"
               loading='lazy'
               decoding='async' 
@@ -360,7 +360,7 @@ export default function Home() {
 
           <div className="flex-1 flex flex-col items-center group cursor-pointer relative h-[400px] max-h-[400px] w-full max-w-[400px] ">
             <img
-              src="./modelo2.jpg"
+              src="./modelo2.JPG"
               alt="Modelo"
               loading='lazy'
               decoding='async' 
@@ -376,7 +376,7 @@ export default function Home() {
 
           <div className="flex-1 flex flex-col items-center group cursor-pointer relative h-[400px] max-h-[400px] w-full max-w-[400px] bg-gray-300">
             <img
-              src="./flaco2.jpg"
+              src="./flaco2.JPG"
               alt="Flaco"
               loading='lazy'
               decoding='async' 
@@ -397,7 +397,7 @@ export default function Home() {
         <div className="flex flex-col md:flex-row justify-center items-center md:justify-around gap-6 gap-y-10 mt-20 w-full mb-20">
           <div className="flex-1 flex flex-col items-center group cursor-pointer relative h-[400px] max-h-[400px] w-full max-w-[400px]">
             <img
-              src="./hipertrofia2.jpg"
+              src="./hipertrofia2.JPG"
               alt="Hipertrofia"
               loading='lazy'
               decoding='async' 
@@ -411,7 +411,7 @@ export default function Home() {
 
           <div className="flex-1 flex flex-col items-center group cursor-pointer h-[400px] max-h-[400px] w-full max-w-[400px]">
             <img
-              src="./modelo2.jpg"
+              src="./modelo2.JPG"
               alt="Modelo"
               loading='lazy'
               decoding='async' 
@@ -425,7 +425,7 @@ export default function Home() {
 
           <div className="flex-1 flex flex-col items-center group cursor-pointer relative h-[400px] max-h-[400px] w-full max-w-[400px] bg-gray-300">
             <img
-              src="./flaco2.jpg"
+              src="./flaco2.JPG"
               alt="Flaco"
               loading='lazy'
               decoding='async' 
