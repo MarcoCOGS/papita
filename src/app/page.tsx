@@ -409,7 +409,7 @@ export default function Home() {
             />
             <p className="text-2xl font-bold text-black pt-5">HIPERTROFIA</p>
           </div>
-          <div className="text-xl mt-32 md:mt-16 md:text-lg font-medium text-center w-full max-w-[400px]">
+          <div className="text-xl mt-24 md:mt-16 md:text-lg font-medium text-center w-full max-w-[400px]">
             Ganancia de masa muscular real, sin vueltas. Plan diseñado para quienes quieren aumentar volumen de forma progresiva, con entrenamientos estructurados y una guía de alimentos ajustada a tu cuerpo y ritmo de vida.
           </div>
 
@@ -423,11 +423,11 @@ export default function Home() {
             />
             <p className="text-2xl font-bold text-black pt-5">MODELO FITNESS</p>
           </div>
-          <div className="text-xl mt-32 md:mt-6 md:text-lg font-medium text-center w-full max-w-[400px]">
+          <div className="text-xl mt-24 md:mt-6 md:text-lg font-medium text-center w-full max-w-[400px]">
             Ideal si querés lucir marcado, con buena simetría y ese look de portada. Enfocado en recomposición corporal, detalle muscular y rendimiento visual sin perder funcionalidad.
           </div>
 
-          <div className="flex-1 flex flex-col items-center group cursor-pointer relative h-[400px] max-h-[400px] w-full max-w-[400px] bg-gray-300">
+          <div className="flex-1 flex flex-col items-center group cursor-pointer relative h-[400px] max-h-[400px] w-full max-w-[400px]">
             <img
               src="./flaco5.png"
               alt="Flaco"
@@ -437,7 +437,7 @@ export default function Home() {
             />
             <p className="text-2xl font-bold text-black pt-5 uppercase">Recomposición muscular</p>
           </div>
-          <div className="text-xl mt-32 md:mt-16 md:text-lg font-medium text-center w-full max-w-[400px]">
+          <div className="text-xl mt-24 md:mt-16 md:text-lg font-medium text-center w-full max-w-[400px]">
             Bajá de peso sin rebotar, y sentite bien de verdad. Para quienes quieren recortar grasa, mejorar salud y verse más livianos. Plan accesible, sostenible y adaptado a tu nivel actual. Nada de dietas extremas.
           </div>
         </div>
