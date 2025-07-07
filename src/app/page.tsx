@@ -348,7 +348,7 @@ export default function Home() {
 
           <div className="flex-1 flex flex-col items-center group cursor-pointer relative h-[400px] max-h-[400px] w-full max-w-[400px]">
             <img
-              src="./hipertrofia3.jpg"
+              src="./hipertrofia5.webp"
               alt="Hipertrofia"
               loading='lazy'
               decoding='async'
@@ -362,9 +362,9 @@ export default function Home() {
             <p className="mt-[420px] text-2xl font-bold text-black">HIPERTROFIA</p>
           </div>
 
-          <div className="flex-1 flex flex-col items-center group cursor-pointer relative h-[400px] max-h-[400px] w-full max-w-[400px] ">
+          <div className="flex-1 flex flex-col items-center group cursor-pointer relative h-[400px] max-h-[400px] w-full max-w-[380px] ">
             <img
-              src="./modelo3.jpg"
+              src="./modelo6.jpg"
               alt="Modelo"
               loading='lazy'
               decoding='async'
@@ -380,7 +380,7 @@ export default function Home() {
 
           <div className="flex-1 flex flex-col items-center group cursor-pointer relative h-[400px] max-h-[400px] w-full max-w-[400px] bg-gray-300">
             <img
-              src="./flaco42.jpg"
+              src="./flaco5.png"
               alt="Flaco"
               loading='lazy'
               decoding='async'
@@ -391,7 +391,7 @@ export default function Home() {
                 Bajá de peso sin rebotar, y sentite bien de verdad. Para quienes quieren recortar grasa, mejorar salud y verse más livianos. Plan accesible, sostenible y adaptado a tu nivel actual. Nada de dietas extremas.
               </p>
             </div>
-            <p className="mt-[420px] text-2xl font-bold text-black">LEAN</p>
+            <p className="mt-[420px] text-2xl font-bold text-black uppercase">Recomposición muscular</p>
           </div>
         </div>
       </section>
@@ -401,7 +401,7 @@ export default function Home() {
         <div className="flex flex-col md:flex-row justify-center items-center md:justify-around gap-6 gap-y-10 mt-20 w-full mb-20">
           <div className="flex-1 flex flex-col items-center group cursor-pointer relative h-[400px] max-h-[400px] w-full max-w-[400px]">
             <img
-              src="./hipertrofia3.jpg"
+              src="./hipertrofia5.webp"
               alt="Hipertrofia"
               loading='lazy'
               decoding='async'
@@ -413,9 +413,9 @@ export default function Home() {
             Ganancia de masa muscular real, sin vueltas. Plan diseñado para quienes quieren aumentar volumen de forma progresiva, con entrenamientos estructurados y una guía de alimentos ajustada a tu cuerpo y ritmo de vida.
           </div>
 
-          <div className="flex-1 flex flex-col items-center group cursor-pointer h-[400px] max-h-[400px] w-full max-w-[400px]">
+          <div className="flex-1 flex flex-col items-center group cursor-pointer h-[400px] max-h-[400px] w-full max-w-[380px]">
             <img
-              src="./modelo3.jpg"
+              src="./modelo6.jpg"
               alt="Modelo"
               loading='lazy'
               decoding='async'
@@ -429,13 +429,13 @@ export default function Home() {
 
           <div className="flex-1 flex flex-col items-center group cursor-pointer relative h-[400px] max-h-[400px] w-full max-w-[400px] bg-gray-300">
             <img
-              src="./flaco42.jpg"
+              src="./flaco5.png"
               alt="Flaco"
               loading='lazy'
               decoding='async'
               className="object-cover h-full w-full"
             />
-            <p className="text-2xl font-bold text-black pt-5">LEAN</p>
+            <p className="text-2xl font-bold text-black pt-5 uppercase">Recomposición muscular</p>
           </div>
           <div className="text-xl mt-32 md:mt-16 md:text-lg font-medium text-center w-full max-w-[400px]">
             Bajá de peso sin rebotar, y sentite bien de verdad. Para quienes quieren recortar grasa, mejorar salud y verse más livianos. Plan accesible, sostenible y adaptado a tu nivel actual. Nada de dietas extremas.
