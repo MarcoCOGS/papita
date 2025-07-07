@@ -4,7 +4,7 @@ import 'swiper/css';
 import 'swiper/css/autoplay';
 import 'swiper/css/navigation';
 
-import { motion, Variants, useAnimation, AnimatePresence   } from "framer-motion";
+import { motion, Variants, useAnimation, AnimatePresence } from "framer-motion";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Autoplay } from 'swiper/modules';
 import { useInView } from 'react-intersection-observer';
@@ -125,7 +125,7 @@ function AnimatedDetails({ title, children, className }: AnimatedDetailsProps) {
   }, []);
 
   return (
-    <div className={`${isDark?'bg-gray-300':'bg-[#EFECE8] rounded-2xl md:flex justify-center md:w-auto'} p-4 rounded mt-6 ${className}`}>
+    <div className={`${isDark ? 'bg-gray-300' : 'bg-[#EFECE8] rounded-2xl md:flex justify-center md:w-auto'} p-4 rounded mt-6 ${className}`}>
       <button
         onClick={() => setIsOpen(!isOpen)}
         className="text-2xl font-extrabold w-full text-left focus:outline-none"
@@ -135,7 +135,7 @@ function AnimatedDetails({ title, children, className }: AnimatedDetailsProps) {
             {title}
           </div>
           <div className='pr-8 font-extrabold text-4xl mt-[-10px]'>
-            {isOpen?'-':'+'}
+            {isOpen ? '-' : '+'}
           </div>
         </div>
       </button>
@@ -227,16 +227,16 @@ function FadeInOnScroll({ children, direction = 'left' }: { children: React.Reac
       initial="hidden"
       animate={controls}
       variants={{
-    hidden: {
-      opacity: 0,
-      x: direction === 'left' ? -offsetX : offsetX,
-    },
-    visible: {
-      opacity: 1,
-      x: 0,
-      transition: { duration: 1, ease: [0.25, 0.1, 0.25, 1] },
-    },
-  }}
+        hidden: {
+          opacity: 0,
+          x: direction === 'left' ? -offsetX : offsetX,
+        },
+        visible: {
+          opacity: 1,
+          x: 0,
+          transition: { duration: 1, ease: [0.25, 0.1, 0.25, 1] },
+        },
+      }}
     >
       {children}
     </motion.div>
@@ -244,7 +244,7 @@ function FadeInOnScroll({ children, direction = 'left' }: { children: React.Reac
 }
 
 export default function Home() {
-  const [disabled] = useState(true)
+  const [disabled] = useState(false)
   if (disabled) {
     return <div>404</div>
   }
@@ -255,7 +255,7 @@ export default function Home() {
           <MobileBackgroundCarousel />
         </div>
         <div className="flex flex-col md:w-3/5 md:py-14 z-10 mt-[5vh]">
-          <HeroSection/>
+          <HeroSection />
           <div className='flex justify-center mt-[3vh] md:mt-5 '>
             <a href="https://api.whatsapp.com/send?phone=+51906151954&text=%C2%A1Hola!%20me%20gustar%C3%ADa%20conocer%20m%C3%A1s%20sobre%20los%20planes%20de%20entrenamiento."
               className='flex justify-center cursor-pointer' target="_blank" rel="noreferrer">
@@ -264,7 +264,7 @@ export default function Home() {
           </div>
         </div>
         <div className="hidden md:flex flex-col md:w-2/5 relative h-64 md:h-auto">
-          <HeroCarousel/>
+          <HeroCarousel />
         </div>
       </section>
 
@@ -283,61 +283,61 @@ export default function Home() {
         </div>
         <div className='px-6 md:w-1/2 self-center'>
           <FadeInOnScroll direction="right">
-              <h2 className="text-3xl md:text-4xl font-black text-[#DA121A] mt-5">EL MOMENTO A LLEGADO</h2>
-              <h3 className="text-2xl font-bold mb-6 mt-4">TRABAJA EN TU MEJOR VERSIÓN!</h3>
-              <div className="space-y-4 flex flex-col">
-                <AnimatedDetails title="01.  ¿Por qué lo hago?" className='flex flex-col'>
-                  <p className="mt-2 text-lg text-black">
-                    • Ayudar a personas a aprender a cambiar su estilo de vida empezando por lo más importante que es lo que los va a acompañar hasta el fin de sus días, su cuerpo.
-                  </p>
-                  <br />
-                  <p className="mt-2 text-lg text-black">
-                    • La fuerza es algo fundamental para la salud y un exceso de grasa puede traer complicaciones muy grande en todo sentido.
-                  </p>
-                  <br />
-                  <p className="mt-2 text-lg text-black">
-                    • Además de la autoconfianza que significa mirarse al espejo y sentirse atractivo.
-                  </p>
-                  <br />
-                  <p className="mt-2 text-lg text-black">
-                    • En tan solo meses ya verás resultados.
-                  </p>
-                </AnimatedDetails>
-                <AnimatedDetails title="02. ¿Qué conlleva el programa?" className='md:hidden'>
-                  <p className="mt-2 text-lg text-black">
-                    • Guía de alimentos
-                  </p>
-                  <br />
-                  <p className="mt-2 text-lg text-black">
-                    • Seguimiento con la dieta diaria por WSP
-                  </p>
-                  <br />
-                  <p className="mt-2 text-lg text-black">
-                    • Rutina de entrenamiento orientado al objetivo buscado
-                  </p>
-                  <br />
-                  <p className="mt-2 text-lg text-black">
-                    • Respuesta a cualquier duda sobre comidas o entrenamiento por chat
-                  </p>
-                </AnimatedDetails>
-                <AnimatedDetails title="02. ¿Qué conlleva el programa?" className='hidden md:flex flex-col'>
-                  <p className="mt-2 text-lg text-black">
-                    • Guía de alimentos
-                  </p>
-                  <br />
-                  <p className="mt-2 text-lg text-black">
-                    • Seguimiento con la dieta diaria por WSP
-                  </p>
-                  <br />
-                  <p className="mt-2 text-lg text-black">
-                    • Rutina de entrenamiento orientado al objetivo buscado
-                  </p>
-                  <br />
-                  <p className="mt-2 text-lg text-black">
-                    • Respuesta a cualquier duda sobre comidas o entrenamiento por chat
-                  </p>
-                </AnimatedDetails>
-              </div>
+            <h2 className="text-3xl md:text-4xl font-black text-[#DA121A] mt-5">EL MOMENTO A LLEGADO</h2>
+            <h3 className="text-2xl font-bold mb-6 mt-4">TRABAJA EN TU MEJOR VERSIÓN!</h3>
+            <div className="space-y-4 flex flex-col">
+              <AnimatedDetails title="01.  ¿Por qué lo hago?" className='flex flex-col'>
+                <p className="mt-2 text-lg text-black">
+                  • Ayudar a personas a aprender a cambiar su estilo de vida empezando por lo más importante que es lo que los va a acompañar hasta el fin de sus días, su cuerpo.
+                </p>
+                <br />
+                <p className="mt-2 text-lg text-black">
+                  • La fuerza es algo fundamental para la salud y un exceso de grasa puede traer complicaciones muy grande en todo sentido.
+                </p>
+                <br />
+                <p className="mt-2 text-lg text-black">
+                  • Además de la autoconfianza que significa mirarse al espejo y sentirse atractivo.
+                </p>
+                <br />
+                <p className="mt-2 text-lg text-black">
+                  • En tan solo meses ya verás resultados.
+                </p>
+              </AnimatedDetails>
+              <AnimatedDetails title="02. ¿Qué conlleva el programa?" className='md:hidden'>
+                <p className="mt-2 text-lg text-black">
+                  • Guía de alimentos
+                </p>
+                <br />
+                <p className="mt-2 text-lg text-black">
+                  • Seguimiento con la dieta diaria por WSP
+                </p>
+                <br />
+                <p className="mt-2 text-lg text-black">
+                  • Rutina de entrenamiento orientado al objetivo buscado
+                </p>
+                <br />
+                <p className="mt-2 text-lg text-black">
+                  • Respuesta a cualquier duda sobre comidas o entrenamiento por chat
+                </p>
+              </AnimatedDetails>
+              <AnimatedDetails title="02. ¿Qué conlleva el programa?" className='hidden md:flex flex-col'>
+                <p className="mt-2 text-lg text-black">
+                  • Guía de alimentos
+                </p>
+                <br />
+                <p className="mt-2 text-lg text-black">
+                  • Seguimiento con la dieta diaria por WSP
+                </p>
+                <br />
+                <p className="mt-2 text-lg text-black">
+                  • Rutina de entrenamiento orientado al objetivo buscado
+                </p>
+                <br />
+                <p className="mt-2 text-lg text-black">
+                  • Respuesta a cualquier duda sobre comidas o entrenamiento por chat
+                </p>
+              </AnimatedDetails>
+            </div>
           </FadeInOnScroll>
         </div>
       </section>
@@ -351,7 +351,7 @@ export default function Home() {
               src="./hipertrofia3.jpg"
               alt="Hipertrofia"
               loading='lazy'
-              decoding='async' 
+              decoding='async'
               className="object-cover h-full w-full absolute top-0 left-0 md:transition-opacity md:duration-500 ease-in-out group-hover:opacity-0"
             />
             <div className="flex absolute top-0 left-0 h-full w-full items-center justify-center px-4 text-center text-black opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out bg-gray-300">
@@ -367,7 +367,7 @@ export default function Home() {
               src="./modelo3.jpg"
               alt="Modelo"
               loading='lazy'
-              decoding='async' 
+              decoding='async'
               className="object-cover h-[400px] w-full absolute top-0 left-0 transition-opacity duration-500 ease-in-out group-hover:opacity-0"
             />
             <div className="absolute top-0 left-0 h-full w-full flex items-center justify-center px-4 text-center text-black opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out bg-gray-300 ">
@@ -383,7 +383,7 @@ export default function Home() {
               src="./flaco42.jpg"
               alt="Flaco"
               loading='lazy'
-              decoding='async' 
+              decoding='async'
               className="object-cover h-[400px] w-full absolute top-0 left-0 transition-opacity duration-500 ease-in-out group-hover:opacity-0"
             />
             <div className="absolute top-0 left-0 h-full w-full flex items-center justify-center px-4 text-center text-black opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out bg-gray-300 ">
@@ -404,7 +404,7 @@ export default function Home() {
               src="./hipertrofia3.jpg"
               alt="Hipertrofia"
               loading='lazy'
-              decoding='async' 
+              decoding='async'
               className="object-cover h-full w-full"
             />
             <p className="text-2xl font-bold text-black pt-5">HIPERTROFIA</p>
@@ -418,7 +418,7 @@ export default function Home() {
               src="./modelo3.jpg"
               alt="Modelo"
               loading='lazy'
-              decoding='async' 
+              decoding='async'
               className="object-cover h-full w-full"
             />
             <p className="text-2xl font-bold text-black pt-5">MODELO FITNESS</p>
@@ -457,21 +457,21 @@ export default function Home() {
           </div>
           <div className="sm:w-1/3 flex flex-col">
             <div className='flex mx-auto justify-start gap-x-5 font-ScandiaRegular'>
-              <img width={30} height={28} src='./envelope-at-fill.svg' alt="" loading='lazy' decoding='async'/>
+              <img width={30} height={28} src='./envelope-at-fill.svg' alt="" loading='lazy' decoding='async' />
               <div>teampapitacontact@gmail.com</div>
             </div>
             <div className='flex text-center justify-center gap-x-5 mt-6 font-ScandiaRegular'>
-              <img width={28.5} height={28.5} src='./telephone.svg' alt="" loading='lazy' decoding='async'/>
+              <img width={28.5} height={28.5} src='./telephone.svg' alt="" loading='lazy' decoding='async' />
               <div>(+51) 906151954</div>
             </div>
           </div>
           <div className='sm:w-1/3 flex flex-col text-center'>
             <div className='font-ScandiaRegular'>Síguenos y contáctanos en</div>
             <div className='flex gap-x-6 mt-5 mx-auto'>
-              <a href="https://www.tiktok.com/@Papitatok" target="_blank" rel="noreferrer"><img width={37} height={42} src='./tiktok.svg' alt="" loading='lazy' decoding='async'/></a>
-              <a href="https://www.facebook.com/MarianoDOTA2" target="_blank" rel="noreferrer"><img width={42} height={42} src='./facebook.svg' alt="" loading='lazy' decoding='async'/></a>
-              <a href="https://www.instagram.com/mariano.caneda" target="_blank" rel="noreferrer"><img width={42} height={42} src='./instagram.svg' alt="" loading='lazy' decoding='async'/></a>
-              <a href="https://kick.com/papita" target="_blank" rel="noreferrer"><img width={42} height={42} src='./kick-logo.svg' alt="" loading='lazy'  decoding='async' className="invert brightness-0" /></a>
+              <a href="https://www.tiktok.com/@Papitatok" target="_blank" rel="noreferrer"><img width={37} height={42} src='./tiktok.svg' alt="" loading='lazy' decoding='async' /></a>
+              <a href="https://www.facebook.com/MarianoDOTA2" target="_blank" rel="noreferrer"><img width={42} height={42} src='./facebook.svg' alt="" loading='lazy' decoding='async' /></a>
+              <a href="https://www.instagram.com/mariano.caneda" target="_blank" rel="noreferrer"><img width={42} height={42} src='./instagram.svg' alt="" loading='lazy' decoding='async' /></a>
+              <a href="https://kick.com/papita" target="_blank" rel="noreferrer"><img width={42} height={42} src='./kick-logo.svg' alt="" loading='lazy' decoding='async' className="invert brightness-0" /></a>
             </div>
           </div>
         </div>
