@@ -8,7 +8,7 @@ const teko = Teko({
 });
 
 export const metadata = {
-  title: 'Papita Landing Page',
+  title: 'Papita - asesorías online',
   description: 'Transforma tu cuerpo con nuestro equipo',
 };
 
