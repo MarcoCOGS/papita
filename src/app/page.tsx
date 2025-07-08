@@ -276,7 +276,7 @@ export default function Home() {
                 <img src="./S2-L122.jpg" alt="motivacion" width={276} height={406} className="object-cover mb-16" loading='lazy' decoding='async' />
               </div>
               <div className='flex'>
-                <img src="./S2-L222.jpg" alt="motivacion" width={276} height={406} className="object-cover mt-16" loading='lazy' decoding='async' />
+                <img src="./S2-L222.png" alt="motivacion" width={276} height={406} className="object-cover mt-16" loading='lazy' decoding='async' />
               </div>
             </div>
           </FadeInOnScroll>
