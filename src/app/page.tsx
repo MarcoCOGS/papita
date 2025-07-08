@@ -362,9 +362,9 @@ export default function Home() {
             <p className="mt-[420px] text-2xl font-bold text-black">HIPERTROFIA</p>
           </div>
 
-          <div className="flex-1 flex flex-col items-center group cursor-pointer relative h-[400px] max-h-[400px] w-full max-w-[380px] ">
+          <div className="flex-1 flex flex-col items-center group cursor-pointer relative h-[400px] max-h-[400px] w-full max-w-[365px] ">
             <img
-              src="./modelo6.jpg"
+              src="./modelo7.png"
               alt="Modelo"
               loading='lazy'
               decoding='async'
@@ -413,9 +413,9 @@ export default function Home() {
             Ganancia de masa muscular real, sin vueltas. Plan diseñado para quienes quieren aumentar volumen de forma progresiva, con entrenamientos estructurados y una guía de alimentos ajustada a tu cuerpo y ritmo de vida.
           </div>
 
-          <div className="flex-1 flex flex-col items-center group cursor-pointer h-[400px] max-h-[400px] w-full max-w-[380px]">
+          <div className="flex-1 flex flex-col items-center group cursor-pointer h-[400px] max-h-[400px] w-full max-w-[350px]">
             <img
-              src="./modelo6.jpg"
+              src="./modelo7.png"
               alt="Modelo"
               loading='lazy'
               decoding='async'

@@ -10,6 +10,9 @@ const teko = Teko({
 export const metadata = {
   title: 'Papita - asesorías online',
   description: 'Transforma tu cuerpo con nuestro equipo',
+  icons: {
+    icon: '/favicon.ico',
+  },
 };
 
 export default function RootLayout({
